@@ -1,0 +1,55 @@
+:root {
+    --cl1: #6B92CB;
+    --cl2: #2A3D81;
+}
+
+.follower-container {
+    margin: 100px auto;
+    border: 1px solid var(--cl2);
+    /* this is a border for maintain stracture.beacuse,this div position was relative; */
+    width: 600px;
+    height: 600px;
+    position: relative;
+    background-color: var(--cl2);
+}
+
+.main-circule {
+    background-color: var(--cl1);
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    position: relative;
+    margin: 125px auto;
+}
+
+.circule {
+    height: 250px;
+    width: 250px;
+    border: 25px solid var(--cl2);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.cr-1 {
+    margin-top: -580px;
+    margin-left: 150px;
+}
+
+.cr-2 {
+    margin-top: -300px;
+    margin-left: 150px;
+}
+
+.cr-3 {
+    margin-top: -450px;
+    margin-left: 20px;
+}
+
+.cr-4 {
+    margin-top: -450px;
+    margin-left: 290px;
+}
+
+.follower {
+  /* background-color: var(--cl2); */ 
+}
